@@ -37,7 +37,7 @@ export const Large: StoryObj<TextProps> = {
 export const CustomComponent: StoryObj<TextProps> = {
   args: {
     asChild: true,
-    children: <h2> Testando</h2>,
+    children: <p> Testando</p>,
   },
   argTypes: {
     children: {
